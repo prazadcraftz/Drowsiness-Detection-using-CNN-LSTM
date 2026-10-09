@@ -1,0 +1,6 @@
+{
+  "output": "results/phase16/benchmark_jobs/lstm32_Yawning_Yawning_60.avi_1.json",
+  "profile": "lstm32",
+  "repetition": 1,
+  "source": "Yawning/Yawning_60.avi"
+}

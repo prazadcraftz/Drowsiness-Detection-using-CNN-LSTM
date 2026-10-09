@@ -1,0 +1,43 @@
+{
+  "blocked_open_attempts": 0,
+  "candidate_processes": [
+    "prepare",
+    "canonical train",
+    "fresh-process repeat",
+    "latency"
+  ],
+  "candidate_test_inference_passes": 0,
+  "excluded_test_source_ids": [
+    "010bb9eab33614ebd39a",
+    "024bb8e0f5d728a11c07",
+    "120991574b3911bdb160",
+    "1f6272797c3e6c2a1d5e",
+    "1f71c2ea9f510b60f1b3",
+    "3074a75e2d826a25690f",
+    "348018322858ff33b50f",
+    "34dc620f41f7d3e6bf3d",
+    "417c6bda830fdf26aabf",
+    "4f2d6bfb08685996b51e",
+    "58a49cdb4e2a708cbc3a",
+    "6072900af6ffe94850fd",
+    "6c3f66e0ddced4a20b44",
+    "6f1d48f9a83f1de4a16a",
+    "740776ec67a72b125b32",
+    "7e7e0d4cc533e48683ea",
+    "88b1dc51389a97990656",
+    "8e734e1bcd11c42e3426",
+    "960cd6e4f211941764f0",
+    "aeeea5fc374f64d8658b",
+    "b37616541ce3e830fd7c",
+    "b3da69e9936deb12ca8d",
+    "c7e9fde3bbc71c02397c",
+    "ef138e0537ffefa3743e",
+    "ef8869816acdf8f82e17",
+    "f22196ca65f339b17721",
+    "f8db3d8a50a340708cb8"
+  ],
+  "guard": "Permanent process file-open audit hook rejects held-out arrays, caches, videos and saved metrics; source whitelist applied to full fit and verification",
+  "historical_disclosure": "The 27 Phase11 held-out sources were previously evaluated by the historical Phase11 baseline; they are not pristine untouched final test sources.",
+  "test_cache_reads": 0,
+  "test_video_reads": 0
+}

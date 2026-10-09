@@ -1,0 +1,6 @@
+{
+  "output": "results/phase16/benchmark_jobs/lstm32_Normal_Normal_1.avi_1.json",
+  "profile": "lstm32",
+  "repetition": 1,
+  "source": "Normal/Normal_1.avi"
+}

@@ -1,0 +1,165 @@
+{
+  "candidate": "production",
+  "settings": {},
+  "exact_parity": true,
+  "windows_exact": 699,
+  "classes_exact": 699,
+  "sources": [
+    {
+      "source": "Normal/Normal_1.avi",
+      "source_sha256": "a8afcfa805a42be3909550ef049012125ba3160f05a8bf6eb4d6862e92092abe",
+      "frames": 131,
+      "frozen_mismatch_frames": 0,
+      "windows_exact": 116,
+      "classes_exact": 116,
+      "maximum_differences": {
+        "raw_features": 0.0,
+        "normalized_features": 0.0,
+        "sequences": 0.0,
+        "input_tensors": 0.0,
+        "logits": 0.0,
+        "probabilities": 0.0
+      },
+      "landmarks_exact": true,
+      "landmark_max_difference": 0.0,
+      "landmark_archive": "C:\\College\\Research\\HYBRIDDDS\\Drowsiness-Detection-using-CNN-and-LSTM\\results\\phase15\\production_parity\\Normal_Normal_1.avi.npz",
+      "policy_trace_sha256": "46087325f9b6bd6fd666111533b3569ad12b0c36facee0fdb254fe635c6beddc",
+      "session_sha256": "a3938788eade7e2420899c5bf45dec0243112c460d3c4c9f27c1c23ba4c8f276",
+      "pixel_trace_sha256": "4f34ef7a0e78c8077471743fab17026d65d200551f804849ab631121faf9cac9",
+      "policy_session_exact": true,
+      "pixels_exact": true
+    },
+    {
+      "source": "Normal/Normal_60.avi",
+      "source_sha256": "33a435e06f565d09125f7266ff2ea81a73524876c246a0f4772fb6c110ac2884",
+      "frames": 140,
+      "frozen_mismatch_frames": 0,
+      "windows_exact": 125,
+      "classes_exact": 125,
+      "maximum_differences": {
+        "raw_features": 0.0,
+        "normalized_features": 0.0,
+        "sequences": 0.0,
+        "input_tensors": 0.0,
+        "logits": 0.0,
+        "probabilities": 0.0
+      },
+      "landmarks_exact": true,
+      "landmark_max_difference": 0.0,
+      "landmark_archive": "C:\\College\\Research\\HYBRIDDDS\\Drowsiness-Detection-using-CNN-and-LSTM\\results\\phase15\\production_parity\\Normal_Normal_60.avi.npz",
+      "policy_trace_sha256": "eae40412163571204d93c623ea813f0fab48f591390f61512f18c421be033e9f",
+      "session_sha256": "6a93f238f5d3e2d5df0d350b4c1227b7669589dbe76ff137778e112e85df15b0",
+      "pixel_trace_sha256": "95e7b6e1c0c08fb7429cc21671d5117d175864515e95174dfb8b21aa7aad60c4",
+      "policy_session_exact": true,
+      "pixels_exact": true
+    },
+    {
+      "source": "Yawning/Yawning_1.avi",
+      "source_sha256": "d8660d17aa08f46a67c782c0b53e2efe54e4b3816c93a167a0c50ae083fb23fe",
+      "frames": 135,
+      "frozen_mismatch_frames": 0,
+      "windows_exact": 120,
+      "classes_exact": 120,
+      "maximum_differences": {
+        "raw_features": 0.0,
+        "normalized_features": 0.0,
+        "sequences": 0.0,
+        "input_tensors": 0.0,
+        "logits": 0.0,
+        "probabilities": 0.0
+      },
+      "landmarks_exact": true,
+      "landmark_max_difference": 0.0,
+      "landmark_archive": "C:\\College\\Research\\HYBRIDDDS\\Drowsiness-Detection-using-CNN-and-LSTM\\results\\phase15\\production_parity\\Yawning_Yawning_1.avi.npz",
+      "policy_trace_sha256": "9be9a5c7a2a56ab0690a66c17e63493cad8e654edeb62dbf796c03a31cc26153",
+      "session_sha256": "1cf0e55b7628ebbc9fe7c53dc59e33fd9271198bcb0d76c3b3f402e6dbb7296f",
+      "pixel_trace_sha256": "7ec9edebe4b2bb4c727906a4e927c9e7e545b82d48b1ed9249a9054d7eb443b5",
+      "policy_session_exact": true,
+      "pixels_exact": true
+    },
+    {
+      "source": "Yawning/Yawning_60.avi",
+      "source_sha256": "7d826d4830099b9741220cbf15a6bf51aec0596165b831419028558eb734ce1d",
+      "frames": 137,
+      "frozen_mismatch_frames": 0,
+      "windows_exact": 111,
+      "classes_exact": 111,
+      "maximum_differences": {
+        "raw_features": 0.0,
+        "normalized_features": 0.0,
+        "sequences": 0.0,
+        "input_tensors": 0.0,
+        "logits": 0.0,
+        "probabilities": 0.0
+      },
+      "landmarks_exact": true,
+      "landmark_max_difference": 0.0,
+      "landmark_archive": "C:\\College\\Research\\HYBRIDDDS\\Drowsiness-Detection-using-CNN-and-LSTM\\results\\phase15\\production_parity\\Yawning_Yawning_60.avi.npz",
+      "policy_trace_sha256": "ad5ae22a97e36107e014b6a29fe0f14f0dff3a4bebc1c8eb8af6338a350529fb",
+      "session_sha256": "0447e2a7746849f2958b7869666109fc627f58a56ea481ff84f59727bd4f7165",
+      "pixel_trace_sha256": "8cffc5391c43d37bf0f37206d2a061ca837fb4549a7c9bb6aa90508df3626058",
+      "policy_session_exact": true,
+      "pixels_exact": true
+    },
+    {
+      "source": "Eye Close/Eye Close_1.avi",
+      "source_sha256": "bc47faa39307d8198ffaa9e29d54ae31a3215e75884d1edfc728b271daab1f51",
+      "frames": 116,
+      "frozen_mismatch_frames": 0,
+      "windows_exact": 101,
+      "classes_exact": 101,
+      "maximum_differences": {
+        "raw_features": 0.0,
+        "normalized_features": 0.0,
+        "sequences": 0.0,
+        "input_tensors": 0.0,
+        "logits": 0.0,
+        "probabilities": 0.0
+      },
+      "landmarks_exact": true,
+      "landmark_max_difference": 0.0,
+      "landmark_archive": "C:\\College\\Research\\HYBRIDDDS\\Drowsiness-Detection-using-CNN-and-LSTM\\results\\phase15\\production_parity\\Eye_Close_Eye_Close_1.avi.npz",
+      "policy_trace_sha256": "0742569b5be011397d9dc068a3e1c2154fc138764121a66ef3bbd93a4f039413",
+      "session_sha256": "51ad396295dad669fb7614e376872cf5b1487a5c51d823ebcf9363e02b041041",
+      "pixel_trace_sha256": "ce5c7ef0e1d95b3449ef42b2fa91e6058f401808d24806ced14ff1f33b7a09a9",
+      "policy_session_exact": true,
+      "pixels_exact": true
+    },
+    {
+      "source": "Eye Close/Eye Close_60.avi",
+      "source_sha256": "77f9634f3db02277d8f2f1c3c6b0bd25acc92f8071dbfa54b2ff0c89d0930ca9",
+      "frames": 141,
+      "frozen_mismatch_frames": 0,
+      "windows_exact": 126,
+      "classes_exact": 126,
+      "maximum_differences": {
+        "raw_features": 0.0,
+        "normalized_features": 0.0,
+        "sequences": 0.0,
+        "input_tensors": 0.0,
+        "logits": 0.0,
+        "probabilities": 0.0
+      },
+      "landmarks_exact": true,
+      "landmark_max_difference": 0.0,
+      "landmark_archive": "C:\\College\\Research\\HYBRIDDDS\\Drowsiness-Detection-using-CNN-and-LSTM\\results\\phase15\\production_parity\\Eye_Close_Eye_Close_60.avi.npz",
+      "policy_trace_sha256": "7a7f0d4a63170a1f3218eeed8edc371ba00b69a2d9fe2909eb36d70472347a4d",
+      "session_sha256": "4042bcb1cd316ed6d16256ae4638aad7aa59053a265f496235eeee6ea687061f",
+      "pixel_trace_sha256": "96760bedc8b2eefe40d3314b993af1193bbd45748b561b48693e89a4eafff377",
+      "policy_session_exact": true,
+      "pixels_exact": true
+    }
+  ],
+  "threads": {
+    "torch_num_threads": 8,
+    "torch_num_interop_threads": 8,
+    "opencv_num_threads": 12,
+    "logical_cpu_count": 12,
+    "mkldnn_enabled": true,
+    "cuda_available": false
+  },
+  "worker_framework_sha256": "f70dbddbcf65a8d301c9acff9169b36d85d9aacf0cab3c0a43fbcf0324f6f91c",
+  "startup": {
+    "benchmark_module_import_ns": 730773500
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "candidate": {
+    "accepted_observations_before_first_prediction": 32,
+    "architecture": "lstm_only",
+    "class_mapping": {
+      "Eye Close": 2,
+      "Normal": 0,
+      "Yawning": 1
+    },
+    "face_gap_semantics": "May remain unchanged unless Phase16 tests reveal an issue",
+    "feature_order": [
+      "EAR-R",
+      "EAR-L",
+      "MAR",
+      "phi",
+      "theta"
+    ],
+    "first_last_span_seconds_at_20hz": 1.55,
+    "inference_stride_after_ready": 1,
+    "input_shape": "(B,5,32)",
+    "internal_lstm_shape": "(B,32,5)",
+    "logit_shape": "(B,3)",
+    "model": "models/phase15/lstm_only_w32_full_development.pt",
+    "nominal_coverage_seconds_at_20hz": 1.6,
+    "normalizer": "models/phase15/lstm32_dev_norm.npy",
+    "target_sampling_hz": 20,
+    "temporal_buffer_length": 32,
+    "training_stride": 16,
+    "window_length": 32
+  },
+  "current_production": {
+    "architecture": "cnn_lstm",
+    "input_shape": "(B,5,16)",
+    "model": "saved_model.pt",
+    "normalizer": "norm.npy",
+    "window_length": 16
+  },
+  "heldout": "27 Phase11 baseline-evaluated held-out videos were excluded from Phase15 candidate processes; they are not pristine untouched final test.",
+  "phase16_required_work": [
+    "load LSTM-only candidate architecture and checkpoint",
+    "load full-development candidate normalizer",
+    "increase temporal buffer to 32 accepted observations",
+    "characterize frozen policy compatibility before any changes"
+  ],
+  "policy_warning": "Phase6 Normal>=0.60, Yawning>=0.60, Eye Close>=0.70 thresholds were characterized with historical CNN-LSTM16. Candidate probabilities may differ. Characterize frozen thresholds in Phase16; no threshold tuning or event-label optimization in Phase15. Whole-video labels are not event-onset ground truth.",
+  "status": "Phase16 integration requirements only; no production change in Phase15"
+}

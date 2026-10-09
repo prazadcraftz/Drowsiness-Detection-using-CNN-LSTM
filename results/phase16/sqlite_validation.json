@@ -1,0 +1,25 @@
+{
+  "aggregate_equals_session_metrics": true,
+  "checkpoint_sha256": "1dcdcdbd17378190a6b7c429fa5ccf5b621dcf0adae6541d89d789a1d5b764ed",
+  "database_sha256": "1d45fa5f782ae7ebc647dd8c6109e4395560b9232f763e331e4b4f52b9ed030f",
+  "event_count": 3,
+  "event_types": [
+    "EYE_CLOSURE",
+    "DROWSINESS",
+    "ALERT"
+  ],
+  "events_equal_analytics_counts": true,
+  "model_name": "LSTMOnly32",
+  "no_frame_or_prediction_tables": true,
+  "normalization_sha256": "9b397ae1327b515c5505610fffa37e198eb5ccd24ec7bf1d112eacec0f950edc",
+  "parameter_count": 209667,
+  "schema_version": 1,
+  "sequence_length": 32,
+  "session_finalized": true,
+  "tables": [
+    "events",
+    "schema_metadata",
+    "session_metrics",
+    "sessions"
+  ]
+}

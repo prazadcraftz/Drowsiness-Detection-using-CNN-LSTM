@@ -1,0 +1,18 @@
+{
+  "candidate_checkpoint_sha256": "1dcdcdbd17378190a6b7c429fa5ccf5b621dcf0adae6541d89d789a1d5b764ed",
+  "candidate_test_inference_passes": 0,
+  "class_ids_exact": 64,
+  "exact_parity": true,
+  "maximum_differences": {
+    "input_tensor": 0.0,
+    "logits": 0.0,
+    "normalized_features": 0.0,
+    "probabilities": 0.0,
+    "sequence": 0.0
+  },
+  "normalizer_sha256": "9b397ae1327b515c5505610fffa37e198eb5ccd24ec7bf1d112eacec0f950edc",
+  "padded_offline_window_note": "Offline repeat-last verification windows are supplied directly; runtime process_features never fabricates missing observations.",
+  "test_cache_reads": 0,
+  "test_video_reads": 0,
+  "verification_windows": 64
+}

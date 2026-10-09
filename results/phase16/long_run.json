@@ -1,0 +1,127 @@
+{
+  "candidate_test_inference_passes": 0,
+  "dashboard_cache_capacity": 4,
+  "dashboard_cache_entries": 1,
+  "decoded_frames_processed": 10000,
+  "event_tracker_count": 5,
+  "feature_buffer_capacity": 32,
+  "feature_buffer_final": 32,
+  "model_predictions": 9969,
+  "profile": "lstm32",
+  "retained_per_frame_model_history": false,
+  "rss_samples": [
+    {
+      "elapsed_seconds": 6.600006599910557e-06,
+      "label": "startup",
+      "peak_rss_bytes": 215982080,
+      "process_cpu_percent": 0.0,
+      "processed_frames": 0,
+      "rss_bytes": 215982080
+    },
+    {
+      "elapsed_seconds": 0.9302372999954969,
+      "label": "after_initialization",
+      "peak_rss_bytes": 295485440,
+      "process_cpu_percent": 211.641047755519,
+      "processed_frames": 0,
+      "rss_bytes": 295485440
+    },
+    {
+      "elapsed_seconds": 33.24513320000551,
+      "label": "frame_1000",
+      "peak_rss_bytes": 328032256,
+      "process_cpu_percent": 257.3310161892684,
+      "processed_frames": 1000,
+      "rss_bytes": 328032256
+    },
+    {
+      "elapsed_seconds": 66.12325610000698,
+      "label": "frame_2000",
+      "peak_rss_bytes": 331206656,
+      "process_cpu_percent": 253.54055416587138,
+      "processed_frames": 2000,
+      "rss_bytes": 331165696
+    },
+    {
+      "elapsed_seconds": 98.41226480000478,
+      "label": "frame_3000",
+      "peak_rss_bytes": 331227136,
+      "process_cpu_percent": 257.48893616546883,
+      "processed_frames": 3000,
+      "rss_bytes": 331149312
+    },
+    {
+      "elapsed_seconds": 131.50825660000555,
+      "label": "frame_4000",
+      "peak_rss_bytes": 331251712,
+      "process_cpu_percent": 240.68246838276693,
+      "processed_frames": 4000,
+      "rss_bytes": 331165696
+    },
+    {
+      "elapsed_seconds": 166.35441090000677,
+      "label": "frame_5000",
+      "peak_rss_bytes": 331251712,
+      "process_cpu_percent": 204.1563163255508,
+      "processed_frames": 5000,
+      "rss_bytes": 331235328
+    },
+    {
+      "elapsed_seconds": 206.05549929999688,
+      "label": "frame_6000",
+      "peak_rss_bytes": 331251712,
+      "process_cpu_percent": 170.84701637554323,
+      "processed_frames": 6000,
+      "rss_bytes": 331210752
+    },
+    {
+      "elapsed_seconds": 246.39733340000384,
+      "label": "frame_7000",
+      "peak_rss_bytes": 331288576,
+      "process_cpu_percent": 152.679597678454,
+      "processed_frames": 7000,
+      "rss_bytes": 331280384
+    },
+    {
+      "elapsed_seconds": 284.1853196000011,
+      "label": "frame_8000",
+      "peak_rss_bytes": 331288576,
+      "process_cpu_percent": 169.44869636901862,
+      "processed_frames": 8000,
+      "rss_bytes": 331259904
+    },
+    {
+      "elapsed_seconds": 325.141586800004,
+      "label": "frame_9000",
+      "peak_rss_bytes": 331513856,
+      "process_cpu_percent": 152.9833021501421,
+      "processed_frames": 9000,
+      "rss_bytes": 331386880
+    },
+    {
+      "elapsed_seconds": 363.02622440000414,
+      "label": "frame_10000",
+      "peak_rss_bytes": 331513856,
+      "process_cpu_percent": 176.7289572805621,
+      "processed_frames": 10000,
+      "rss_bytes": 331415552
+    }
+  ],
+  "rss_trend": {
+    "assessment": "Descriptive RSS trend only; not proof of absence or presence of a memory leak",
+    "first_rss_bytes": 215982080,
+    "last_rss_bytes": 331415552,
+    "linear_slope_bytes_per_frame": 5309.610131661442,
+    "max_rss_bytes": 331415552,
+    "min_rss_bytes": 215982080,
+    "net_change_bytes": 115433472,
+    "positive_interval_fraction": 0.7272727272727273,
+    "sample_count": 12,
+    "strictly_monotonic_growth": false
+  },
+  "scope": "one engineering long-run; RSS descriptive, no proof of absence of memory leak",
+  "smoother_capacity": 5,
+  "smoother_final": 5,
+  "source": "Normal/Normal_1.avi",
+  "wall_seconds": 363.0378128000011
+}

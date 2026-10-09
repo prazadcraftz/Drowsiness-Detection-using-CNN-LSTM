@@ -1,0 +1,827 @@
+{
+  "frozen_thresholds": {
+    "Eye Close": 0.7,
+    "Normal": 0.6,
+    "Yawning": 0.6
+  },
+  "margin_band": 0.05,
+  "purpose": "descriptive probability and margin characterization; no threshold selection",
+  "rows": [
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 116,
+          "threshold": 0.7,
+          "within_band_count": 1
+        },
+        "Normal": {
+          "above_or_equal_count": 101,
+          "band": 0.05,
+          "below_count": 15,
+          "threshold": 0.6,
+          "within_band_count": 4
+        },
+        "Yawning": {
+          "above_or_equal_count": 8,
+          "band": 0.05,
+          "below_count": 108,
+          "threshold": 0.6,
+          "within_band_count": 3
+        }
+      },
+      "prediction_count": 116,
+      "profile": "legacy",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 116,
+          "maximum": 0.6527275443077087,
+          "mean": 0.008791398257017136,
+          "median": 4.46169069618918e-05,
+          "minimum": 4.153962330361027e-12,
+          "p10": 4.963173694250145e-08,
+          "p25": 1.5709903209426557e-06,
+          "p75": 0.0002939892001450062,
+          "p90": 0.0015930209774523973
+        },
+        "Normal": {
+          "count": 116,
+          "maximum": 0.9999887943267822,
+          "mean": 0.8164365887641907,
+          "median": 0.8807212710380554,
+          "minimum": 0.1473788172006607,
+          "p10": 0.4647737145423889,
+          "p25": 0.7423129677772522,
+          "p75": 0.9846950173377991,
+          "p90": 0.9982355833053589
+        },
+        "Yawning": {
+          "count": 116,
+          "maximum": 0.8524686694145203,
+          "mean": 0.1747719943523407,
+          "median": 0.11909829080104828,
+          "minimum": 1.1199741493328474e-05,
+          "p10": 0.0017641172744333744,
+          "p25": 0.015294491313397884,
+          "p75": 0.24578312039375305,
+          "p90": 0.4674454927444458
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 1,
+        "Normal": 103,
+        "Yawning": 12
+      },
+      "source": "Normal/Normal_1.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 125,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 125,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 125,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 125,
+      "profile": "legacy",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 125,
+          "maximum": 2.8839862352469936e-05,
+          "mean": 2.3466850507247727e-07,
+          "median": 2.9186486560917047e-10,
+          "minimum": 1.4325059151040764e-13,
+          "p10": 2.0919811022368506e-11,
+          "p25": 1.4758604061082536e-10,
+          "p75": 5.561984206536863e-10,
+          "p90": 2.0944934675526383e-09
+        },
+        "Normal": {
+          "count": 125,
+          "maximum": 0.9999958276748657,
+          "mean": 0.9996286034584045,
+          "median": 0.9998434782028198,
+          "minimum": 0.9805343747138977,
+          "p10": 0.9996809959411621,
+          "p25": 0.9998002648353577,
+          "p75": 0.9998763799667358,
+          "p90": 0.9999372363090515
+        },
+        "Yawning": {
+          "count": 125,
+          "maximum": 0.019436728209257126,
+          "mean": 0.0003711528843268752,
+          "median": 0.00015648678527213633,
+          "minimum": 4.156333943683421e-06,
+          "p10": 6.27700865152292e-05,
+          "p25": 0.00012362199777271599,
+          "p75": 0.00019981352670583874,
+          "p90": 0.0003190131392329931
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 0,
+        "Normal": 125,
+        "Yawning": 0
+      },
+      "source": "Normal/Normal_60.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 120,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 120,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 120,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 120,
+      "profile": "legacy",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 120,
+          "maximum": 2.417162470180756e-09,
+          "mean": 1.270711313949846e-09,
+          "median": 1.213166234137475e-09,
+          "minimum": 4.815008947112176e-10,
+          "p10": 7.504705745731144e-10,
+          "p25": 9.667443512384466e-10,
+          "p75": 1.5322404456341587e-09,
+          "p90": 1.8325891915083048e-09
+        },
+        "Normal": {
+          "count": 120,
+          "maximum": 1.3067548154666042e-09,
+          "mean": 8.28185631185363e-10,
+          "median": 7.927332124069153e-10,
+          "minimum": 4.897509064960559e-10,
+          "p10": 6.12330519622617e-10,
+          "p25": 6.736728952461135e-10,
+          "p75": 9.145021406808951e-10,
+          "p90": 1.1472494065856154e-09
+        },
+        "Yawning": {
+          "count": 120,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "minimum": 1.0,
+          "p10": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p90": 1.0
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 120
+      },
+      "source": "Yawning/Yawning_1.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 111,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 111,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 111,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 111,
+      "profile": "legacy",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 111,
+          "maximum": 0.00033986230846494436,
+          "mean": 7.648950486327522e-06,
+          "median": 2.3349160382934997e-09,
+          "minimum": 3.699521244904247e-10,
+          "p10": 7.95821020194154e-10,
+          "p25": 1.359667267664122e-09,
+          "p75": 1.1356988238730992e-08,
+          "p90": 4.149519838847482e-07
+        },
+        "Normal": {
+          "count": 111,
+          "maximum": 8.829479338601232e-05,
+          "mean": 2.190625991715933e-06,
+          "median": 2.5030981731788415e-09,
+          "minimum": 8.219417368948712e-10,
+          "p10": 1.0723106846910468e-09,
+          "p25": 1.38054645493213e-09,
+          "p75": 5.341608044773238e-09,
+          "p90": 6.970108756831905e-08
+        },
+        "Yawning": {
+          "count": 111,
+          "maximum": 1.0,
+          "mean": 0.9999901652336121,
+          "median": 1.0,
+          "minimum": 0.9995718598365784,
+          "p10": 0.9999996423721313,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p90": 1.0
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 111
+      },
+      "source": "Yawning/Yawning_60.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 101,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 86,
+          "band": 0.05,
+          "below_count": 15,
+          "threshold": 0.6,
+          "within_band_count": 4
+        },
+        "Yawning": {
+          "above_or_equal_count": 3,
+          "band": 0.05,
+          "below_count": 98,
+          "threshold": 0.6,
+          "within_band_count": 3
+        }
+      },
+      "prediction_count": 101,
+      "profile": "legacy",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 101,
+          "maximum": 0.11152752488851547,
+          "mean": 0.001653304323554039,
+          "median": 3.829170600511134e-05,
+          "minimum": 6.885403358580788e-11,
+          "p10": 1.190596279343481e-07,
+          "p25": 6.255116659303894e-06,
+          "p75": 0.00036783807445317507,
+          "p90": 0.001948969904333353
+        },
+        "Normal": {
+          "count": 101,
+          "maximum": 0.9999048709869385,
+          "mean": 0.8446176648139954,
+          "median": 0.931686520576477,
+          "minimum": 0.1386590600013733,
+          "p10": 0.5270580649375916,
+          "p25": 0.7807506322860718,
+          "p75": 0.9784570932388306,
+          "p90": 0.9981582760810852
+        },
+        "Yawning": {
+          "count": 101,
+          "maximum": 0.8609739542007446,
+          "mean": 0.15372900664806366,
+          "median": 0.06762246042490005,
+          "minimum": 9.509889787295833e-05,
+          "p10": 0.0018417800310999155,
+          "p25": 0.021526629105210304,
+          "p75": 0.21917960047721863,
+          "p90": 0.46723273396492004
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 0,
+        "Normal": 93,
+        "Yawning": 8
+      },
+      "source": "Eye Close/Eye Close_1.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 126,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 126,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 126,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 126,
+      "profile": "legacy",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 126,
+          "maximum": 0.9999992847442627,
+          "mean": 0.9998845458030701,
+          "median": 0.9999990463256836,
+          "minimum": 0.9970198273658752,
+          "p10": 0.9995927214622498,
+          "p25": 0.9999923706054688,
+          "p75": 0.9999992847442627,
+          "p90": 0.9999992847442627
+        },
+        "Normal": {
+          "count": 126,
+          "maximum": 0.002576835686340928,
+          "mean": 3.697919237310998e-05,
+          "median": 7.198318030532391e-08,
+          "minimum": 4.222164662337491e-08,
+          "p10": 5.504539402068076e-08,
+          "p25": 5.740399444675859e-08,
+          "p75": 1.0412045412522275e-06,
+          "p90": 3.18691527354531e-05
+        },
+        "Yawning": {
+          "count": 126,
+          "maximum": 0.0008818870992399752,
+          "mean": 7.854601426515728e-05,
+          "median": 8.651174994156463e-07,
+          "minimum": 6.325630579340213e-07,
+          "p10": 6.692501415273e-07,
+          "p25": 6.934963039384456e-07,
+          "p75": 3.774011020141188e-06,
+          "p90": 0.00036782791721634567
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 126,
+        "Normal": 0,
+        "Yawning": 0
+      },
+      "source": "Eye Close/Eye Close_60.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 100,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 100,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 100,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 100,
+      "profile": "lstm32",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 100,
+          "maximum": 0.07005205005407333,
+          "mean": 0.022206323221325874,
+          "median": 0.020909206941723824,
+          "minimum": 0.01060535479336977,
+          "p10": 0.013625598512589931,
+          "p25": 0.01812388189136982,
+          "p75": 0.024471359327435493,
+          "p90": 0.03147291764616966
+        },
+        "Normal": {
+          "count": 100,
+          "maximum": 0.9636265635490417,
+          "mean": 0.8656569123268127,
+          "median": 0.9001083374023438,
+          "minimum": 0.67877596616745,
+          "p10": 0.7105079889297485,
+          "p25": 0.7981948852539062,
+          "p75": 0.9504601359367371,
+          "p90": 0.9564191699028015
+        },
+        "Yawning": {
+          "count": 100,
+          "maximum": 0.296487033367157,
+          "mean": 0.11213678121566772,
+          "median": 0.08018414676189423,
+          "minimum": 0.021346336230635643,
+          "p10": 0.023467207327485085,
+          "p25": 0.03255245089530945,
+          "p75": 0.17544075846672058,
+          "p90": 0.25841519236564636
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 0,
+        "Normal": 100,
+        "Yawning": 0
+      },
+      "source": "Normal/Normal_1.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 109,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 109,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 109,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 109,
+      "profile": "lstm32",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 109,
+          "maximum": 0.013479703105986118,
+          "mean": 0.012687763199210167,
+          "median": 0.012777422554790974,
+          "minimum": 0.01055590994656086,
+          "p10": 0.011820579878985882,
+          "p25": 0.012481111101806164,
+          "p75": 0.013172347098588943,
+          "p90": 0.013332357630133629
+        },
+        "Normal": {
+          "count": 109,
+          "maximum": 0.9308476448059082,
+          "mean": 0.9084306359291077,
+          "median": 0.9055877923965454,
+          "minimum": 0.9019261598587036,
+          "p10": 0.9035785794258118,
+          "p25": 0.9042767882347107,
+          "p75": 0.9091883301734924,
+          "p90": 0.9192909002304077
+        },
+        "Yawning": {
+          "count": 109,
+          "maximum": 0.08470688760280609,
+          "mean": 0.07888161391019821,
+          "median": 0.0813954770565033,
+          "minimum": 0.05856277048587799,
+          "p10": 0.06876695901155472,
+          "p25": 0.07809948176145554,
+          "p75": 0.08259060233831406,
+          "p90": 0.08319270610809326
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 0,
+        "Normal": 109,
+        "Yawning": 0
+      },
+      "source": "Normal/Normal_60.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 104,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 104,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 104,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 104,
+      "profile": "lstm32",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 104,
+          "maximum": 0.0003254215116612613,
+          "mean": 0.00031048382516019046,
+          "median": 0.00031095778103917837,
+          "minimum": 0.00028468083473853767,
+          "p10": 0.0002972765651065856,
+          "p25": 0.00030604260973632336,
+          "p75": 0.0003174960729666054,
+          "p90": 0.00032187369652092457
+        },
+        "Normal": {
+          "count": 104,
+          "maximum": 0.0006296367500908673,
+          "mean": 0.0005398549837991595,
+          "median": 0.0005391067243181169,
+          "minimum": 0.00046958631719462574,
+          "p10": 0.0005068359896540642,
+          "p25": 0.0005182803724892437,
+          "p75": 0.0005592841189354658,
+          "p90": 0.0005726268864236772
+        },
+        "Yawning": {
+          "count": 104,
+          "maximum": 0.9992456436157227,
+          "mean": 0.9991496205329895,
+          "median": 0.9991503953933716,
+          "minimum": 0.9990530610084534,
+          "p10": 0.9991064071655273,
+          "p25": 0.9991306066513062,
+          "p75": 0.9991694688796997,
+          "p90": 0.9991940259933472
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 104
+      },
+      "source": "Yawning/Yawning_1.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 95,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 95,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 95,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 95,
+      "profile": "lstm32",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 95,
+          "maximum": 0.0003997510939370841,
+          "mean": 0.0003505490312818438,
+          "median": 0.00035088436561636627,
+          "minimum": 0.0003018077986780554,
+          "p10": 0.0003252237511333078,
+          "p25": 0.0003404285234864801,
+          "p75": 0.00036175959394313395,
+          "p90": 0.00037482366315089166
+        },
+        "Normal": {
+          "count": 95,
+          "maximum": 0.0009833838557824492,
+          "mean": 0.0007843084749765694,
+          "median": 0.0007870098343119025,
+          "minimum": 0.0005678140441887081,
+          "p10": 0.0006302569527179003,
+          "p25": 0.0007241006242111325,
+          "p75": 0.0008620878215879202,
+          "p90": 0.0009206784889101982
+        },
+        "Yawning": {
+          "count": 95,
+          "maximum": 0.9990984201431274,
+          "mean": 0.9988651275634766,
+          "median": 0.9988558292388916,
+          "minimum": 0.9986357092857361,
+          "p10": 0.9987228512763977,
+          "p25": 0.998784601688385,
+          "p75": 0.9989331960678101,
+          "p90": 0.9990495443344116
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 95
+      },
+      "source": "Yawning/Yawning_60.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 85,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 85,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 85,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 85,
+      "profile": "lstm32",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 85,
+          "maximum": 0.03375634923577309,
+          "mean": 0.02356160618364811,
+          "median": 0.022523077204823494,
+          "minimum": 0.015526781789958477,
+          "p10": 0.017920751124620438,
+          "p25": 0.019178766757249832,
+          "p75": 0.02734586037695408,
+          "p90": 0.030468475073575974
+        },
+        "Normal": {
+          "count": 85,
+          "maximum": 0.9236767888069153,
+          "mean": 0.852095901966095,
+          "median": 0.8622733354568481,
+          "minimum": 0.7588966488838196,
+          "p10": 0.7863902449607849,
+          "p25": 0.828048825263977,
+          "p75": 0.8791964650154114,
+          "p90": 0.8986244201660156
+        },
+        "Yawning": {
+          "count": 85,
+          "maximum": 0.21243558824062347,
+          "mean": 0.12434236705303192,
+          "median": 0.1147884801030159,
+          "minimum": 0.060796454548835754,
+          "p10": 0.08282716572284698,
+          "p25": 0.09773986041545868,
+          "p75": 0.14237721264362335,
+          "p90": 0.18688105046749115
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 0,
+        "Normal": 85,
+        "Yawning": 0
+      },
+      "source": "Eye Close/Eye Close_1.avi"
+    },
+    {
+      "frozen_threshold_margins": {
+        "Eye Close": {
+          "above_or_equal_count": 110,
+          "band": 0.05,
+          "below_count": 0,
+          "threshold": 0.7,
+          "within_band_count": 0
+        },
+        "Normal": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 110,
+          "threshold": 0.6,
+          "within_band_count": 0
+        },
+        "Yawning": {
+          "above_or_equal_count": 0,
+          "band": 0.05,
+          "below_count": 110,
+          "threshold": 0.6,
+          "within_band_count": 0
+        }
+      },
+      "prediction_count": 110,
+      "profile": "lstm32",
+      "raw_class_probability": {
+        "Eye Close": {
+          "count": 110,
+          "maximum": 0.9944363832473755,
+          "mean": 0.9910320043563843,
+          "median": 0.9922292232513428,
+          "minimum": 0.9835420846939087,
+          "p10": 0.9877817034721375,
+          "p25": 0.9887838363647461,
+          "p75": 0.9931075572967529,
+          "p90": 0.9935178160667419
+        },
+        "Normal": {
+          "count": 110,
+          "maximum": 0.007937311194837093,
+          "mean": 0.004229470621794462,
+          "median": 0.0033381811808794737,
+          "minimum": 0.0024123010225594044,
+          "p10": 0.002826300449669361,
+          "p25": 0.0029470445588231087,
+          "p75": 0.0057684145867824554,
+          "p90": 0.006473983637988567
+        },
+        "Yawning": {
+          "count": 110,
+          "maximum": 0.008520601317286491,
+          "mean": 0.0047386144287884235,
+          "median": 0.004375055432319641,
+          "minimum": 0.003151269629597664,
+          "p10": 0.0036623289342969656,
+          "p25": 0.00393143342807889,
+          "p75": 0.005155056249350309,
+          "p90": 0.006525702774524689
+        }
+      },
+      "raw_predicted_class_counts": {
+        "Eye Close": 110,
+        "Normal": 0,
+        "Yawning": 0
+      },
+      "source": "Eye Close/Eye Close_60.avi"
+    }
+  ]
+}

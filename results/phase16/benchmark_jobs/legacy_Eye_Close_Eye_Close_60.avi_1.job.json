@@ -1,0 +1,6 @@
+{
+  "output": "results/phase16/benchmark_jobs/legacy_Eye_Close_Eye_Close_60.avi_1.json",
+  "profile": "legacy",
+  "repetition": 1,
+  "source": "Eye Close/Eye Close_60.avi"
+}

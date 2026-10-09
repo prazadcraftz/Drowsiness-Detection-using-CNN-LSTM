@@ -1,0 +1,18 @@
+.venv/
+.venv-*/
+venv/
+.pytest_cache/
+.cache/
+__pycache__/
+*.py[cod]
+
+# Local video corpora and generated experiment evidence are not source files.
+Eye Close/
+Normal/
+Yawning/
+mesh/
+results/
+model_output.avi
+saved_model_0.95.pt
+preprocess_label.npy
+preprocess_window.npy

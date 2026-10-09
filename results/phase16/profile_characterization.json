@@ -1,0 +1,1038 @@
+{
+  "candidate_test_inference_passes": 0,
+  "profiles": [
+    "legacy",
+    "lstm32"
+  ],
+  "purpose": "six development compatibility fixtures, descriptive only; no accuracy or threshold tuning",
+  "rows": [
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 131,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 0,
+          "longest_seconds": 0.0
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 131,
+      "first_prediction_timestamp_seconds": 0.75,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 116,
+      "no_face_intervals": 0,
+      "profile": "legacy",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 1,
+        "Normal": 103,
+        "Yawning": 12
+      },
+      "sampled_observations": 131,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 111,
+        "Yawning": 5
+      },
+      "source": "Normal/Normal_1.avi",
+      "source_sha256": "a8afcfa805a42be3909550ef049012125ba3160f05a8bf6eb4d6862e92092abe",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 116,
+        "DROWSY": 0,
+        "FATIGUE": 0,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 15
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 5.75,
+        "DROWSY": 0.0,
+        "FATIGUE": 0.0,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 0.75
+      },
+      "warmup_observations_required": 16
+    },
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 140,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 0,
+          "longest_seconds": 0.0
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 140,
+      "first_prediction_timestamp_seconds": 0.75,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 125,
+      "no_face_intervals": 0,
+      "profile": "legacy",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 0,
+        "Normal": 125,
+        "Yawning": 0
+      },
+      "sampled_observations": 140,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 125,
+        "Yawning": 0
+      },
+      "source": "Normal/Normal_60.avi",
+      "source_sha256": "33a435e06f565d09125f7266ff2ea81a73524876c246a0f4772fb6c110ac2884",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 125,
+        "DROWSY": 0,
+        "FATIGUE": 0,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 15
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 6.2,
+        "DROWSY": 0.0,
+        "FATIGUE": 0.0,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 0.75
+      },
+      "warmup_observations_required": 16
+    },
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 135,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 1,
+          "longest_seconds": 5.6499999999999995
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 135,
+      "first_prediction_timestamp_seconds": 0.75,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 120,
+      "no_face_intervals": 0,
+      "profile": "legacy",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 120
+      },
+      "sampled_observations": 135,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 120
+      },
+      "source": "Yawning/Yawning_1.avi",
+      "source_sha256": "d8660d17aa08f46a67c782c0b53e2efe54e4b3816c93a167a0c50ae083fb23fe",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 6,
+        "DROWSY": 0,
+        "FATIGUE": 114,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 15
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 0.30000000000000004,
+        "DROWSY": 0.0,
+        "FATIGUE": 5.6499999999999995,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 0.75
+      },
+      "warmup_observations_required": 16
+    },
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 137,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 4,
+          "longest_seconds": 0.30000000000000027
+        },
+        "yawn": {
+          "count": 1,
+          "longest_seconds": 5.0
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 126,
+      "first_prediction_timestamp_seconds": 0.75,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 111,
+      "no_face_intervals": 4,
+      "profile": "legacy",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 111
+      },
+      "sampled_observations": 126,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 111
+      },
+      "source": "Yawning/Yawning_60.avi",
+      "source_sha256": "7d826d4830099b9741220cbf15a6bf51aec0596165b831419028558eb734ce1d",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 6,
+        "DROWSY": 0,
+        "FATIGUE": 105,
+        "NO_FACE": 11,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 15
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 0.30000000000000004,
+        "DROWSY": 0.0,
+        "FATIGUE": 5.2,
+        "NO_FACE": 0.5500000000000003,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 0.75
+      },
+      "warmup_observations_required": 16
+    },
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 116,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 0,
+          "longest_seconds": 0.0
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 116,
+      "first_prediction_timestamp_seconds": 0.75,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 101,
+      "no_face_intervals": 0,
+      "profile": "legacy",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 0,
+        "Normal": 93,
+        "Yawning": 8
+      },
+      "sampled_observations": 116,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 101,
+        "Yawning": 0
+      },
+      "source": "Eye Close/Eye Close_1.avi",
+      "source_sha256": "bc47faa39307d8198ffaa9e29d54ae31a3215e75884d1edfc728b271daab1f51",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 101,
+        "DROWSY": 0,
+        "FATIGUE": 0,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 15
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 5.0,
+        "DROWSY": 0.0,
+        "FATIGUE": 0.0,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 0.75
+      },
+      "warmup_observations_required": 16
+    },
+    {
+      "alert_occurrences": 1,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 1,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 141,
+      "events": {
+        "alert": {
+          "count": 1,
+          "longest_seconds": 3.75
+        },
+        "drowsiness": {
+          "count": 1,
+          "longest_seconds": 5.25
+        },
+        "eye_closure": {
+          "count": 1,
+          "longest_seconds": 6.25
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 0,
+          "longest_seconds": 0.0
+        }
+      },
+      "eye_evidence_fraction": 1.0,
+      "face_visible_frames": 141,
+      "first_prediction_timestamp_seconds": 0.75,
+      "gap_resets": 0,
+      "longest_alert_seconds": 3.75,
+      "longest_drowsy_progression_seconds": 5.25,
+      "longest_eye_evidence_seconds": 6.25,
+      "model_predictions": 126,
+      "no_face_intervals": 0,
+      "profile": "legacy",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 126,
+        "Normal": 0,
+        "Yawning": 0
+      },
+      "sampled_observations": 141,
+      "smoothed_class_counts": {
+        "Eye Close": 126,
+        "Normal": 0,
+        "Yawning": 0
+      },
+      "source": "Eye Close/Eye Close_60.avi",
+      "source_sha256": "77f9634f3db02277d8f2f1c3c6b0bd25acc92f8071dbfa54b2ff0c89d0930ca9",
+      "state_frame_counts": {
+        "ALERT": 76,
+        "ATTENTIVE": 0,
+        "DROWSY": 30,
+        "FATIGUE": 0,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 20,
+        "WARMING_UP": 15
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 3.75,
+        "ATTENTIVE": 0.0,
+        "DROWSY": 1.5,
+        "FATIGUE": 0.0,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 1.0,
+        "WARMING_UP": 0.75
+      },
+      "warmup_observations_required": 16
+    },
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 131,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 0,
+          "longest_seconds": 0.0
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 131,
+      "first_prediction_timestamp_seconds": 1.55,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 100,
+      "no_face_intervals": 0,
+      "profile": "lstm32",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 0,
+        "Normal": 100,
+        "Yawning": 0
+      },
+      "sampled_observations": 131,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 100,
+        "Yawning": 0
+      },
+      "source": "Normal/Normal_1.avi",
+      "source_sha256": "a8afcfa805a42be3909550ef049012125ba3160f05a8bf6eb4d6862e92092abe",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 100,
+        "DROWSY": 0,
+        "FATIGUE": 0,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 31
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 4.949999999999999,
+        "DROWSY": 0.0,
+        "FATIGUE": 0.0,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 1.55
+      },
+      "warmup_observations_required": 32
+    },
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 140,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 0,
+          "longest_seconds": 0.0
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 140,
+      "first_prediction_timestamp_seconds": 1.55,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 109,
+      "no_face_intervals": 0,
+      "profile": "lstm32",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 0,
+        "Normal": 109,
+        "Yawning": 0
+      },
+      "sampled_observations": 140,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 109,
+        "Yawning": 0
+      },
+      "source": "Normal/Normal_60.avi",
+      "source_sha256": "33a435e06f565d09125f7266ff2ea81a73524876c246a0f4772fb6c110ac2884",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 109,
+        "DROWSY": 0,
+        "FATIGUE": 0,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 31
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 5.3999999999999995,
+        "DROWSY": 0.0,
+        "FATIGUE": 0.0,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 1.55
+      },
+      "warmup_observations_required": 32
+    },
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 135,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 1,
+          "longest_seconds": 4.85
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 135,
+      "first_prediction_timestamp_seconds": 1.55,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 104,
+      "no_face_intervals": 0,
+      "profile": "lstm32",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 104
+      },
+      "sampled_observations": 135,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 104
+      },
+      "source": "Yawning/Yawning_1.avi",
+      "source_sha256": "d8660d17aa08f46a67c782c0b53e2efe54e4b3816c93a167a0c50ae083fb23fe",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 6,
+        "DROWSY": 0,
+        "FATIGUE": 98,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 31
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 0.30000000000000004,
+        "DROWSY": 0.0,
+        "FATIGUE": 4.85,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 1.55
+      },
+      "warmup_observations_required": 32
+    },
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 137,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 4,
+          "longest_seconds": 0.30000000000000027
+        },
+        "yawn": {
+          "count": 1,
+          "longest_seconds": 4.2
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 126,
+      "first_prediction_timestamp_seconds": 1.55,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 95,
+      "no_face_intervals": 4,
+      "profile": "lstm32",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 95
+      },
+      "sampled_observations": 126,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 0,
+        "Yawning": 95
+      },
+      "source": "Yawning/Yawning_60.avi",
+      "source_sha256": "7d826d4830099b9741220cbf15a6bf51aec0596165b831419028558eb734ce1d",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 6,
+        "DROWSY": 0,
+        "FATIGUE": 89,
+        "NO_FACE": 11,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 31
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 0.30000000000000004,
+        "DROWSY": 0.0,
+        "FATIGUE": 4.4,
+        "NO_FACE": 0.5500000000000003,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 1.55
+      },
+      "warmup_observations_required": 32
+    },
+    {
+      "alert_occurrences": 0,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 0,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 116,
+      "events": {
+        "alert": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "drowsiness": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "eye_closure": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 0,
+          "longest_seconds": 0.0
+        }
+      },
+      "eye_evidence_fraction": 0.0,
+      "face_visible_frames": 116,
+      "first_prediction_timestamp_seconds": 1.55,
+      "gap_resets": 0,
+      "longest_alert_seconds": 0.0,
+      "longest_drowsy_progression_seconds": 0.0,
+      "longest_eye_evidence_seconds": 0.0,
+      "model_predictions": 85,
+      "no_face_intervals": 0,
+      "profile": "lstm32",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 0,
+        "Normal": 85,
+        "Yawning": 0
+      },
+      "sampled_observations": 116,
+      "smoothed_class_counts": {
+        "Eye Close": 0,
+        "Normal": 85,
+        "Yawning": 0
+      },
+      "source": "Eye Close/Eye Close_1.avi",
+      "source_sha256": "bc47faa39307d8198ffaa9e29d54ae31a3215e75884d1edfc728b271daab1f51",
+      "state_frame_counts": {
+        "ALERT": 0,
+        "ATTENTIVE": 85,
+        "DROWSY": 0,
+        "FATIGUE": 0,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 0,
+        "WARMING_UP": 31
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 0.0,
+        "ATTENTIVE": 4.199999999999999,
+        "DROWSY": 0.0,
+        "FATIGUE": 0.0,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 0.0,
+        "WARMING_UP": 1.55
+      },
+      "warmup_observations_required": 32
+    },
+    {
+      "alert_occurrences": 1,
+      "audio_disabled": true,
+      "audio_snapshot": {
+        "audible_trigger_count": 0,
+        "closed": true,
+        "completed_playback_count": 0,
+        "cooldown_remaining_seconds": 0.0,
+        "cooldown_seconds": 5.0,
+        "currently_playing": false,
+        "disabled_trigger_count": 1,
+        "enabled": false,
+        "failed_playback_count": 0,
+        "last_error": null,
+        "last_trigger_timestamp": null,
+        "pending": false,
+        "suppressed_trigger_count": 0
+      },
+      "decoded_frames": 141,
+      "events": {
+        "alert": {
+          "count": 1,
+          "longest_seconds": 2.95
+        },
+        "drowsiness": {
+          "count": 1,
+          "longest_seconds": 4.449999999999999
+        },
+        "eye_closure": {
+          "count": 1,
+          "longest_seconds": 5.449999999999999
+        },
+        "no_face": {
+          "count": 0,
+          "longest_seconds": 0.0
+        },
+        "yawn": {
+          "count": 0,
+          "longest_seconds": 0.0
+        }
+      },
+      "eye_evidence_fraction": 1.0,
+      "face_visible_frames": 141,
+      "first_prediction_timestamp_seconds": 1.55,
+      "gap_resets": 0,
+      "longest_alert_seconds": 2.95,
+      "longest_drowsy_progression_seconds": 4.449999999999999,
+      "longest_eye_evidence_seconds": 5.449999999999999,
+      "model_predictions": 110,
+      "no_face_intervals": 0,
+      "profile": "lstm32",
+      "purpose": "descriptive development fixture behavior, not accuracy or event validation",
+      "raw_class_counts": {
+        "Eye Close": 110,
+        "Normal": 0,
+        "Yawning": 0
+      },
+      "sampled_observations": 141,
+      "smoothed_class_counts": {
+        "Eye Close": 110,
+        "Normal": 0,
+        "Yawning": 0
+      },
+      "source": "Eye Close/Eye Close_60.avi",
+      "source_sha256": "77f9634f3db02277d8f2f1c3c6b0bd25acc92f8071dbfa54b2ff0c89d0930ca9",
+      "state_frame_counts": {
+        "ALERT": 60,
+        "ATTENTIVE": 0,
+        "DROWSY": 30,
+        "FATIGUE": 0,
+        "NO_FACE": 0,
+        "SUSPECTED_DROWSY": 20,
+        "WARMING_UP": 31
+      },
+      "state_occupancy_seconds": {
+        "ALERT": 2.95,
+        "ATTENTIVE": 0.0,
+        "DROWSY": 1.4999999999999996,
+        "FATIGUE": 0.0,
+        "NO_FACE": 0.0,
+        "SUSPECTED_DROWSY": 1.0000000000000002,
+        "WARMING_UP": 1.55
+      },
+      "warmup_observations_required": 32
+    }
+  ],
+  "sources": [
+    "Normal/Normal_1.avi",
+    "Normal/Normal_60.avi",
+    "Yawning/Yawning_1.avi",
+    "Yawning/Yawning_60.avi",
+    "Eye Close/Eye Close_1.avi",
+    "Eye Close/Eye Close_60.avi"
+  ]
+}

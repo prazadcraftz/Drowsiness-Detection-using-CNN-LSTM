@@ -1,0 +1,59 @@
+{
+  "architecture": "lstm_only",
+  "checkpoint_bytes": 843805,
+  "checkpoint_sha256": "1dcdcdbd17378190a6b7c429fa5ccf5b621dcf0adae6541d89d789a1d5b764ed",
+  "class_mapping": {
+    "Eye Close": 2,
+    "Normal": 0,
+    "Yawning": 1
+  },
+  "class_video_counts": [
+    51,
+    51,
+    51
+  ],
+  "development_source_count": 153,
+  "epoch_count": 13,
+  "epoch_derivation": "median of nine Phase14 LSTM-only N32 CV best epochs",
+  "expected_runtime_stride": 1,
+  "feature_order": [
+    "EAR-R",
+    "EAR-L",
+    "MAR",
+    "phi",
+    "theta"
+  ],
+  "final_epoch_weights": true,
+  "loss": "unweighted CrossEntropyLoss",
+  "normalization_bytes": 208,
+  "normalizer_sha256": "9b397ae1327b515c5505610fffa37e198eb5ccd24ec7bf1d112eacec0f950edc",
+  "optimizer": "Adam lr=0.001",
+  "parameters": 209667,
+  "phase12_fold_sha256": "eb7dd82962e189ceaf5e3acd512773af8df572e1055475e5c9c2f4acd2c15739",
+  "phase13_architecture_spec_sha256": "49e9966c42c822a6d09b2465dbac25b481934e2544b0097790c54205f21f35ab",
+  "phase14_window_spec_sha256": "95a19973681f08e4236da469be001ae2c9ffdaa9f14cc95459ab4103ead4f895",
+  "phase15_selection_spec_sha256": "4e38c082a141c739898a4982d57e476ed09463bf1b67715feb7b24b09adf468c",
+  "seed": 1501,
+  "software_environment": {
+    "bit_identical_training_verified": false,
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "logical_cpu_count": 12,
+    "mkldnn_enabled": true,
+    "platform": "Windows-11-10.0.26220-SP0",
+    "python": "3.12.14",
+    "software": {
+      "mediapipe": "1.0.1",
+      "numpy": "2.5.3",
+      "opencv-contrib-python": "5.0.0.93",
+      "torch": "2.14.0+cpu"
+    },
+    "torch_interop_threads": 8,
+    "torch_threads": 8
+  },
+  "source_set_sha256": "38bcb029a1299e39c429338ee4e998920c29b4c83da91635f04b1765dd3ffe5f",
+  "test_inference_passes": 0,
+  "training_stride": 16,
+  "window_length": 32
+}

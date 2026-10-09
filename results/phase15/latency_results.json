@@ -1,0 +1,103 @@
+{
+  "aggregate": {
+    "process_cpu": {
+      "mean_ms": 8.707682291666666,
+      "p50_ms": 0.0,
+      "p95_ms": 46.875,
+      "p99_ms": 62.5,
+      "sample_count": 3072
+    },
+    "wall": {
+      "mean_ms": 3.3542926106770836,
+      "p50_ms": 3.33955,
+      "p95_ms": 4.186059999999999,
+      "p99_ms": 5.261803999999999,
+      "sample_count": 3072
+    }
+  },
+  "checkpoint_sha256": "1dcdcdbd17378190a6b7c429fa5ccf5b621dcf0adae6541d89d789a1d5b764ed",
+  "clock_note": "Windows process CPU clock can be coarse and sums threads; all samples retained",
+  "extreme_stalls": [],
+  "protocol": {
+    "batch_size": 1,
+    "clocks": [
+      "perf_counter_ns",
+      "process_time_ns"
+    ],
+    "device": "cpu",
+    "extreme_wall_stall_ms": 100.0,
+    "fold": 0,
+    "input_artifact_sha256": "09e1b2ddd4f9d86815583aab3c8169b546caafffa54c00511d85351a893d9cc4",
+    "input_count": 64,
+    "measured_calls_per_job": 1024,
+    "normalization": "Phase15 full-development normalizer",
+    "order_seed": 1402,
+    "outlier_policy": "retain all samples, no trimming",
+    "repetitions": 3,
+    "seed": 1201,
+    "torch_interop_threads": 8,
+    "torch_threads": 8,
+    "warmup_calls": 128
+  },
+  "raw_samples_sha256": "8f6d6f7afcf842b5001d4c506f2b9fae71d01534cf6f0cbf8f1f28ef687241f2",
+  "runs": [
+    {
+      "extreme_stalls": [],
+      "process_cpu": {
+        "mean_ms": 8.3160400390625,
+        "p50_ms": 0.0,
+        "p95_ms": 46.875,
+        "p99_ms": 62.5,
+        "sample_count": 1024
+      },
+      "repeat": 0,
+      "wall": {
+        "mean_ms": 3.28669541015625,
+        "p50_ms": 3.21575,
+        "p95_ms": 4.109755,
+        "p99_ms": 5.0843029999999985,
+        "sample_count": 1024
+      }
+    },
+    {
+      "extreme_stalls": [],
+      "process_cpu": {
+        "mean_ms": 8.6822509765625,
+        "p50_ms": 0.0,
+        "p95_ms": 46.875,
+        "p99_ms": 62.5,
+        "sample_count": 1024
+      },
+      "repeat": 1,
+      "wall": {
+        "mean_ms": 3.392043359375,
+        "p50_ms": 3.37505,
+        "p95_ms": 4.209504999999999,
+        "p99_ms": 6.319635999999996,
+        "sample_count": 1024
+      }
+    },
+    {
+      "extreme_stalls": [],
+      "process_cpu": {
+        "mean_ms": 9.124755859375,
+        "p50_ms": 0.0,
+        "p95_ms": 46.875,
+        "p99_ms": 62.5,
+        "sample_count": 1024
+      },
+      "repeat": 2,
+      "wall": {
+        "mean_ms": 3.3841390625,
+        "p50_ms": 3.4126000000000003,
+        "p95_ms": 4.22591,
+        "p99_ms": 5.045935999999999,
+        "sample_count": 1024
+      }
+    }
+  ],
+  "scope": "model-only CPU inference, batch 1; not full application latency",
+  "test_cache_reads": 0,
+  "test_inference_passes": 0,
+  "test_video_reads": 0
+}
